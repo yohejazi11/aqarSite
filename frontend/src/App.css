@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rtl {
+    direction: rtl;
+}
+
+.background-pattern {
+    background-image: url(/BGpattern/cubes.png);
+    background-size: 5%;
+}
+
+.footer-background-pattern {
+    background-image: url(/BGpattern/gplay.png);
+    background-size: 20%;
+    box-shadow: 2px 11px 20px 0px black;
+}
+
+.main-header{
+    background-image: url(/BGpattern/gplay.png);
+    background-size: 15%;
+}
+
+button:focus{
+    outline: none;
+}
